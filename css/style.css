@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8fc;
+  color: #333333;
+}
+
+.app {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.todo-card {
+  background-color: white;
+  border: 2px solid #f3c2dc;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+h1 {
+  color: #d81b8a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#task-form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#task-input {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #d81b8a;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#task-form button {
+  padding: 12px 18px;
+  background-color: #d81b8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #ffe4f2;
+  border: 1px solid #f5b6d7;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.task-text {
+  color: #8a145d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background-color: #ff5c9a;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
