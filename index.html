@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List del mattino</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="todo-card">
+        <h1>La TO DO LIST di Noemi</h1>
+        <p>
+          Aggiungi una task, cliccala quando l'hai completata oppure eliminala.
+        </p>
+
+        <form id="task-form">
+          <input
+            id="task-input"
+            type="text"
+            placeholder="Scrivi una nuova task"
+          />
+          <button type="submit">Aggiungi</button>
+        </form>
+
+        <ul id="task-list">
+            <li class="task-item">
+            <span class="task-text">05:00 sveglia e beauty routine</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">05:45 svegliare Giuseppe per la scuola</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">06:35 assicurarsi che Giuseppe abbia preso tutto il necessario</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">06:45 svegliare Beatrice Sophia per la scuola</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">07:30 assicurarsi che Beatrice Sophia abbia preso tutto il necessario</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">07:45 avviare la lavastoviglie</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">08:00 iniziare ad organizzare il pranzo</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">08:15 avviare la lavatrice</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">08:30 caffè</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">08:45 controllo mail di lavoro e rispondere alle più urgenti</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+
+          <li class="task-item">
+            <span class="task-text">09:00 inizio lezione Epicode</span>
+            <button class="delete-btn" type="button">Elimina</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+
